@@ -7,6 +7,6 @@ import com.example.workshopmongo.domain.Post;
 import com.example.workshopmongo.domain.User;
 
 @Repository
-public interface UserRepository extends MongoRepository<User, String> {
+public interface PostRepository extends MongoRepository<Post, String> {
 
 }
